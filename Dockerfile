@@ -1,6 +1,6 @@
 FROM openjdk:11-jdk
 
-COPY /build/libs/server-0.0.1-SNAPSHOT.jar app.jar
+COPY /build/libs/application-0.0.1-SNAPSHOT.jar app.jar
 
 ENV JAVA_OPTS=""
 ENV ARGS=""
