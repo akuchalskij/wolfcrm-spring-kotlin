@@ -1,0 +1,18 @@
+version: '3'
+services:
+  app:
+    restart: on-failure
+    build: ./
+    expose:
+      - 8080
+    ports:
+      - 80:8080
+  postgresql:
+    restart: always
+    image: postgres:latest
+    env_file:
+      - .env
+    volumes:
+      - ./data:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
