@@ -1,11 +1,11 @@
-package com.wolfcrm.application.service.user
+package com.wolfcrm.application.service.auth
 
-import com.wolfcrm.application.domain.User
-import com.wolfcrm.application.dto.UserAuth
+import com.wolfcrm.application.domain.user.User
+import com.wolfcrm.application.dto.auth.UserAuth
 import com.wolfcrm.application.http.response.JWT
 import com.wolfcrm.application.http.response.Message
-import com.wolfcrm.application.repository.RoleRepository
-import com.wolfcrm.application.repository.UserRepository
+import com.wolfcrm.application.repository.user.RoleRepository
+import com.wolfcrm.application.repository.user.UserRepository
 import com.wolfcrm.application.security.JWTProvider
 
 import org.springframework.beans.factory.annotation.Autowired
@@ -73,7 +73,7 @@ class AuthService {
                     null,
                     encoder.encode(registerData.password),
                     true
-                    )
+            )
             user.roles = listOf(roleRepository.findByName("ROLE_USER"))
 
             userRepository.save(user)

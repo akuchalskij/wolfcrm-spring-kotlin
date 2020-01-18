@@ -1,4 +1,4 @@
-package com.wolfcrm.application.dto
+package com.wolfcrm.application.dto.auth
 
 import com.fasterxml.jackson.annotation.JsonProperty
 import java.io.Serializable

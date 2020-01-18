@@ -1,7 +1,7 @@
-package com.wolfcrm.application.controller
+package com.wolfcrm.application.controller.auth
 
-import com.wolfcrm.application.dto.UserAuth
-import com.wolfcrm.application.service.user.AuthService
+import com.wolfcrm.application.dto.auth.UserAuth
+import com.wolfcrm.application.service.auth.AuthService
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*

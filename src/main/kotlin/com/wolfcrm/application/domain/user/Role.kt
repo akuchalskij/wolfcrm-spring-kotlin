@@ -1,4 +1,4 @@
-package com.wolfcrm.application.domain
+package com.wolfcrm.application.domain.user
 
 import javax.persistence.*
 

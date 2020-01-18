@@ -1,5 +1,6 @@
-package com.wolfcrm.application.domain
+package com.wolfcrm.application.domain.user
 
+import com.wolfcrm.application.domain.user.Role
 import javax.persistence.*
 
 @Entity
