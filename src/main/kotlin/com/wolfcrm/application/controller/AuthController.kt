@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.*
 import javax.validation.Valid
 
 @RestController
-@RequestMapping("/v1/users")
-class UserController {
+@RequestMapping("/v1/auth")
+class AuthController {
     @Autowired
     lateinit var authService: AuthService
 
