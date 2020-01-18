@@ -9,6 +9,9 @@ services:
       - 8080
     ports:
       - 80:8080
+    depends_on:
+      - postgresql
+
   postgresql:
     restart: always
     image: postgres:latest

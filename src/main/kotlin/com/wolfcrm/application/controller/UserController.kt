@@ -18,5 +18,4 @@ class UserController {
 
     @PostMapping("/register")
     fun registerUser(@Valid @RequestBody userAuth: UserAuth): ResponseEntity<*> = authService.register(userAuth)
-
 }

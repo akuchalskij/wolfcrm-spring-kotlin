@@ -18,7 +18,7 @@ data class User(
         @Column(name="last_name")
         var lastName: String? = null,
 
-        @Column(name="last_name")
+        @Column(name="middle_name")
         var middleName: String? = null,
 
         @Column(name="phone")

@@ -26,7 +26,7 @@ dependencies {
     implementation("com.h2database:h2")
 
     implementation("io.jsonwebtoken:jjwt:0.9.1")
-
+    implementation("org.postgresql:postgresql")
 
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
