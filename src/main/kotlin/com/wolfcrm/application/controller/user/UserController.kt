@@ -3,6 +3,7 @@ package com.wolfcrm.application.controller.user
 import com.wolfcrm.application.dto.user.Account
 import com.wolfcrm.application.dto.user.ManagedAccount
 import com.wolfcrm.application.service.user.UserService
+import io.swagger.annotations.Api
 
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.http.ResponseEntity
@@ -12,6 +13,7 @@ import org.springframework.web.bind.annotation.*
 import javax.validation.Valid
 
 
+@Api(tags = ["Users"])
 @RestController
 @RequestMapping("/v1/users")
 class UserController {
