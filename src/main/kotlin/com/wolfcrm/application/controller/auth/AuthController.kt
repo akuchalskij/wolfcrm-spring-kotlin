@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*
 import javax.validation.Valid
 
 @RestController
+@CrossOrigin
 @RequestMapping("/v1/auth")
 class AuthController {
     @Autowired

@@ -6,6 +6,7 @@ Pet project
 - [x] Swagger Docs
 - [x] Account system
 - [ ] Task system
+- [ ] Permissions
 - [ ] Chats
 - [ ] Backoffice
   
