@@ -3,7 +3,9 @@ Pet project
 ## Implementations
 - [x] JWT Auth
 - [x] Environment in Docker
-- [ ] Chats
-- [ ] Account system
+- [x] Swagger Docs
+- [x] Account system
 - [ ] Task system
+- [ ] Chats
+- [ ] Backoffice
   
